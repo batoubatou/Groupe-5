@@ -1,7 +1,20 @@
 //definir la sctucture facture par Brelle
+typedef struct Devoir1
+{
+    int numero,int id_etudiant;
+float montant,inscription,scolarite;
+char objet[5];
 
 
-//Procédure remplir tab par Brelle 
+    /* data */
+} Facture;
+
+
+
+//Procédure remplir tab factures par Brelle 
+void remplirFactures(Facture tab [], int n)
+
+
 
 
 //Procédure affiche tab par Brelle
