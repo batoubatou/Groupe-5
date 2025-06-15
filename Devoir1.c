@@ -1,6 +1,7 @@
 //definir la sctucture facture par Brelle
 
-//Procédure remplir tab par Brelle
+//Procédure remplir tab par Brelle 
+ include 
 
 
 //Procédure affiche tab par Brelle
