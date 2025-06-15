@@ -1,7 +1,11 @@
-//definir la sctucture facture par Brelle
+ #include<stdio.h>
+ #include<string.h>
+ 
+ //definir la sctucture facture par Brelle
 typedef struct Devoir1
 {
-    int numero,int id_etudiant;
+    int numero
+    int id_etudiant;
 float montant,inscription,scolarite;
 char objet[5];
 
@@ -10,9 +14,10 @@ char objet[5];
 } Facture;
 
 
-
 //Procédure remplir tab factures par Brelle 
-void remplirFactures(Facture tab [], int n)
+void remplirFactures(Facture tab [], int n) {
+
+}
 
 
 
