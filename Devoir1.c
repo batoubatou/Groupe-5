@@ -46,8 +46,11 @@ void afficher (Facture)
 
 
 //Fonction somme tab par Alix
-
-
+S=0
+for (i=0; i<N; i++){
+    S=S+tabf[i].montant
+ }
+  printf("la somme total des factures est:"s);
 //Fonction Min tab par Alix
 
 
