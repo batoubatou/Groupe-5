@@ -2,14 +2,17 @@
  #include<string.h>
  
  //definir la sctucture facture par Brelle
-typedef struct 
-{
-    int numero
+typedef struct{
+    int numero;
     int id;
 float montant,inscription,scolarite;
 char objet[5];
+}
+fin structure;
 
-} Facture;
+    
+
+ 
 
 
 //Procédure remplir tab factures par Brelle 
