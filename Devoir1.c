@@ -58,7 +58,12 @@ for(i=0; i<N; i++){
 }
    printf("\nle minimum est:"Min);
 //Fonction Max tab par Alix
-
+Max=tabf[1].montant
+for(i=0; i<n; i++){
+    if(tabf[i]).montant>Max)[
+        Max=tabf[i].montant
+    ]
+}
 
 //Fonction somme par objet par Davide
 
