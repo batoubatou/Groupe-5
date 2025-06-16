@@ -52,7 +52,7 @@ for (i=0; i<N; i++){
  }
   printf("\nla somme total des factures est:"s);
 //Fonction Min tab par Alix
-Min=tabf[i].montantw;
+Min=tabf[1].montantw;
 for(i=0; i<N; i++){
     if(tabf[i]).montant<Min){
         Min=tabf[i].montant;
