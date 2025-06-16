@@ -44,13 +44,13 @@ void afficher (Facture)
 
 
 //Fonction somme tab par Alix
-S=0
+S=0;
 for (i=0; i<N; i++){
     S=S+tabf[i].montant;
  }
   printf("\nla somme total des factures est:"s);
 //Fonction Min tab par Alix
-Min=tabf[i].montant
+Min=tabf[i].montantw;
 for(i=0; i<N; i++){
     if(tabf[i]).montant<Min){
         Min=tabf[i].montant;
@@ -58,7 +58,7 @@ for(i=0; i<N; i++){
 }
    printf("\nle minimum est:"Min);
 //Fonction Max tab par Alix
-Max=tabf[1].montant
+Max=tabf[1].montant;
 for(i=0; i<n; i++){
     if(tabf[i]).montant>Max)[
         Max=tabf[i].montant
