@@ -10,15 +10,10 @@ char objet[5];
 }
 fin structure;
 
-    
-
- 
-
-
 //Procédure remplir tab factures par Brelle 
 void remplir Factures (struct Facture Tab[2],int n) {
 
- for (int i = 0; i < n; i++)
+ for (int i = 0; i < n; i++)  
  {
     printf ("\n veuillez saisir le numero de l etudiant \n");
     scanf("%d",&Facture Tab [i].numero);
@@ -51,12 +46,17 @@ void afficher (Facture)
 //Fonction somme tab par Alix
 S=0
 for (i=0; i<N; i++){
-    S=S+tabf[i].montant
+    S=S+tabf[i].montant;
  }
-  printf("la somme total des factures est:"s);
+  printf("\nla somme total des factures est:"s);
 //Fonction Min tab par Alix
-
-
+Min=tabf[i].montant
+for(i=0; i<N; i++){
+    if(tabf[i]).montant<Min){
+        Min=tabf[i].montant;
+    }
+}
+   printf("\nle minimum est:"Min);
 //Fonction Max tab par Alix
 
 
