@@ -2,7 +2,7 @@
  #include<string.h>
  
  //definir la sctucture facture par Brelle
-typedef struct Devoir1
+typedef struct 
 {
     int numero
     int id;
