@@ -68,7 +68,7 @@ for(i=0; i<n; i++){
 }
 
 //Fonction somme par objet par Davide
-
+oui
 
 //Procédure facture par étudiant par Davide
 
