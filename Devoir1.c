@@ -13,8 +13,10 @@ fin structure;
 //Procédure remplir tab factures par Brelle 
 void remplir Factures (struct Facture Tab[2],int n) {
 
- for (int i = 0; i < n; i++)  
- {
+ for (int i = 0; i < n; i++){
+    
+ } 
+ 
     printf ("\n veuillez saisir le numero de l etudiant \n");
     scanf("%d",&Facture Tab [i].numero);
      printf ("\n veuillez saisir l id de l etudiant \n");
