@@ -67,10 +67,10 @@ for(i=0; i<n; i++){
     ]
 }
 
-//Fonction somme par objet par Davide
+//Fonction somme par objet par David
 oui
 
-//Procédure facture par étudiant par Davide
+//Procédure facture par étudiant par David
 
 
-//Main (pour intégrer les fonctionnalités du programme par Davide
+//Main (pour intégrer les fonctionnalités du programme par David
