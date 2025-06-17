@@ -56,7 +56,7 @@ float sommeTab(struct Facture tab[], int n){
 //Fonction Min tab par Alix
 float minTab(struct Facture tab[], int n){
     float min=tab[0].montant;
-    for(i=1; i<n; i++){
+    for( int i=1; i<n; i++){
         if(tab[i]).montant < Min){
             Min=tabf[i].montant;
         }
@@ -66,7 +66,7 @@ float minTab(struct Facture tab[], int n){
 //Fonction Max tab par Alix
  float maxTab(struct Facture tab[], int n){
     float Max=tabf[0].montant;
-    for(i=1; i<n; i++){
+    for(int i=1; i<n; i++){
        if(tabf[i]).montant > Max){
          Max=tabf[i]).montant;
        }
