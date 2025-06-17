@@ -46,33 +46,33 @@ void afficher (Facture)
 
 
 //Fonction somme tab par Alix
-float sommeTab(Facture tab[4], int n){
+float sommeTab(struct Facture tab[], int n){
     float S=0;
-    for (i=0; i<N; i++){
-        S=S+tabf[i].montant;
+    for (i=0; i<n; i++){
+        S=S+tab[i].montant;
     }
+      return S;
 }
-  return S;
 //Fonction Min tab par Alix
-float minTab(Facture tab[4], int n){
-    float min=tabf[1].montant;
-    for(i=0; i<N; i++){
-        if(tabf[i]).montant<Min){
+float minTab(struct Facture tab[], int n){
+    float min=tab[0].montant;
+    for(i=1; i<n; i++){
+        if(tab[i]).montant < Min){
             Min=tabf[i].montant;
         }
     }
+      return min;
 }
-   return min;
 //Fonction Max tab par Alix
- float maxTab(Facture tab[4], int n){
-    float Max=tabf[1].montant;
-    for(i=0; i<n; i++){
+ float maxTab(struct Facture tab[], int n){
+    float Max=tabf[0].montant;
+    for(i=1; i<n; i++){
        if(tabf[i]).montant > Max){
          Max=tabf[i]).montant;
        }
     }
-}
-  return Max;       
+        return Max; 
+}       
 //Fonction somme par objet par David
 S=0;
 for(i=0; i<n; i++){
