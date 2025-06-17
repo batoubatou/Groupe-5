@@ -52,7 +52,7 @@ for (i=0; i<N; i++){
  }
   printf("\nla somme total des factures est:"s);
 //Fonction Min tab par Alix
-Min=tabf[i].montantw;
+Min=tabf[1].montantw;
 for(i=0; i<N; i++){
     if(tabf[i]).montant<Min){
         Min=tabf[i].montant;
@@ -68,6 +68,7 @@ for(i=0; i<n; i++){
 }
 
 //Fonction somme par objet par David
+<<<<<<< HEAD
 S=0;
 for(i=0; i<n; i++){
     if(tabf[i].objet,objetrecherche){
@@ -75,8 +76,11 @@ for(i=0; i<n; i++){
     }
 }
 
+=======
+oui
+>>>>>>> 7cd9008edf6cf46dcadc5d10ada0099eb6233ad2
 
-//Procédure facture par étudiant par Davide
+//Procédure facture par étudiant par David
 
 
-//Main (pour intégrer les fonctionnalités du programme par Davide
+//Main (pour intégrer les fonctionnalités du programme par David
