@@ -5,6 +5,7 @@
 typedef struct{
     int numero;
     int id;
+    int idRecherche;
 float montant,inscription,scolarite;
 char objet[5];
 }
@@ -83,6 +84,75 @@ for(i=0; i<n; i++){
 
 
 //Procédure facture par étudiant par David
+void factureParEtudiant(){
+    int found = 0;
+    printf("\nEntrez l'ID de l'etudiant pour afficher ses factures : ");
+    scanf("%d", &idRecherche);
+    printf("\n--- Factures pour l'etudiant ID %d ---\n", idRecherche);
+    for (int i = 0; i < nombreFactures; i++){
+        if (tableauFactures[i].idEtudiant == idRecherche){
+            printf("  Numero: %d\n", tableauFactures[i].numero);
+            printf("  Montant: %.2f\n", tableauFactures[i].montant);
+            printf("  Objet: %s\n", tableauFactures[i].objet);
+            printf("--------------------------\n");
+            found = 1;
+        }
+    }
+    if (!found){
+        printf("Aucune facture trouvee pour l'etudiant ID %d.\n", idRecherche);
+    }
+}
 
 
 //Main (pour intégrer les fonctionnalités du programme par David
+main() {
+    int choix;
+    char objetPourSomme[50];
+
+    do {
+        printf("\n--- Menu Principal ---\n");
+        printf("1. Remplir une nouvelle facture\n");
+        printf("2. Afficher toutes les factures\n");
+        printf("3. Calculer la somme totale des montants\n");
+        printf("4. Trouver le montant minimum\n");
+        printf("5. Trouver le montant maximum\n");
+        printf("6. Calculer la somme des montants par objet\n");
+        printf("7. Afficher les factures par etudiant\n");
+        printf("0. Quitter\n");
+        printf("Votre choix : ");
+        scanf("%d", &choix);
+
+        switch (choix) {
+            case 1:
+                remplirTab();
+                break;
+            case 2:
+                afficheTab();
+                break;
+            case 3:
+                printf("\nSomme totale des montants : %.2f\n", sommeTab());
+                break;
+            case 4:
+                printf("\nMontant minimum : %.2f\n", minTab());
+                break;
+            case 5:
+                printf("\nMontant maximum : %.2f\n", maxTab());
+                break;
+            case 6:
+                printf("Entrez l'objet pour calculer la somme (ex: inscription, scolarite) : ");
+                scanf("%s", objetPourSomme);
+                printf("Somme pour l'objet '%s' : %.2f\n", objetPourSomme, sommeParObjet(objetPourSomme));
+                break;
+            case 7:
+                factureParEtudiant();
+                break;
+            case 0:
+                printf("Merci d'avoir utilise le programme. Au revoir !\n");
+                break;
+            default:
+                printf("Choix invalide. Veuillez reessayer.\n");
+        }
+    } while (choix != 0);
+
+    return 0;
+}
