@@ -4,8 +4,7 @@
  //definir la sctucture facture par Brelle
 typedef struct{
     int numero;
-    int id;
-    int idRecherche;
+    int id etudiant;
 float montant,inscription,scolarite;
 char objet[5];
 }
@@ -44,16 +43,16 @@ void remplir Factures (struct Facture Tab[2],int n) {
 
 //Procédure affiche tab par Brelle
 
-void Afficher Factures(struct Factures tabP[N]){
-	int T;
-	char M[20];
+void Afficher Factures(struct Factures tabP[i]){
+	int numero;
+	char objet[5];
 	main(){
-		T=0;
-		printf("veillez saisir le mois");
+		numero=0;
+		printf("veillez saisir l objet");
 		scanf("%s",&M);
 		for(i=0;i<N;i++){
-			if(tabP[i].matricule=M){
-				printf("%d %d %s %s",&tabP[i].id &tabP[i].montant &tabP[i].mois&tabP[i].datepaiement)
+			if(tabP[i].objet=ob){
+				printf("%f %d  %d %s ",&tabP[i].id etudiant &tabP[i].montant &tabP[i]. scolarite &tabP[i].mois)
 			}
 		}
 	}
