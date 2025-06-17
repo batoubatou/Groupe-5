@@ -11,6 +11,9 @@ typedef struct{
     char objet[5];
 }
 fin structure;
+const int N=1;
+struct facture tab[N];
+int i;
 
 //Procédure remplir tab factures par Brelle 
 void remplir Factures (struct Facture Tab[2],int n) {
@@ -45,12 +48,12 @@ void remplir Factures (struct Facture Tab[2],int n) {
 
 //Procédure affiche tab par Brelle
 
-void Afficher Factures(struct Factures tabP[i]){
+void Afficher Factures(struct Factures tab[i]){
 	int numero;
 	char objet[5];
 	main(){
 		numero=0;
-		printf("veillez saisir l objet");
+		printf("veillez saisir l'objet");
 		scanf("%s",&M);
 		for(i=0;i<N;i++){
 			if(tabP[i].objet=ob){
