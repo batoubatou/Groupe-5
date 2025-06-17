@@ -42,7 +42,21 @@ void remplir Factures (struct Facture Tab[2],int n) {
 
 
 //Procédure affiche tab par Brelle
-void afficher (Facture)
+
+void Afficher Factures(struct Factures tabP[N]){
+	int T;
+	char M[20];
+	main(){
+		T=0;
+		printf("veillez saisir le mois");
+		scanf("%s",&M);
+		for(i=0;i<N;i++){
+			if(tabP[i].matricule=M){
+				printf("%d %d %s %s",&tabP[i].id &tabP[i].montant &tabP[i].mois&tabP[i].datepaiement)
+			}
+		}
+	}
+}
 
 
 //Fonction somme tab par Alix
