@@ -46,27 +46,33 @@ void afficher (Facture)
 
 
 //Fonction somme tab par Alix
-S=0;
-for (i=0; i<N; i++){
-    S=S+tabf[i].montant;
- }
-  printf("\nla somme total des factures est:"s);
-//Fonction Min tab par Alix
-Min=tabf[1].montantw;
-for(i=0; i<N; i++){
-    if(tabf[i]).montant<Min){
-        Min=tabf[i].montant;
+float sommeTab(Facture tab[4], int n){
+    float S=0;
+    for (i=0; i<N; i++){
+        S=S+tabf[i].montant;
     }
 }
-   printf("\nle minimum est:"Min);
-//Fonction Max tab par Alix
-Max=tabf[1].montant;
-for(i=0; i<n; i++){
-    if(tabf[i]).montant>Max)[
-        Max=tabf[i].montant
-    ]
+  return S;
+//Fonction Min tab par Alix
+float minTab(Facture tab[4], int n){
+    float min=tabf[1].montant;
+    for(i=0; i<N; i++){
+        if(tabf[i]).montant<Min){
+            Min=tabf[i].montant;
+        }
+    }
 }
-
+   return min;
+//Fonction Max tab par Alix
+ float maxTab(Facture tab[4], int n){
+    float Max=tabf[1].montant;
+    for(i=0; i<n; i++){
+       if(tabf[i]).montant > Max){
+         Max=tabf[i]).montant;
+       }
+    }
+}
+  return Max;       
 //Fonction somme par objet par David
 S=0;
 for(i=0; i<n; i++){
