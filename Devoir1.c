@@ -67,8 +67,14 @@ for(i=0; i<n; i++){
     ]
 }
 
-//Fonction somme par objet par Davide
-oui
+//Fonction somme par objet par David
+S=0;
+for(i=0; i<n; i++){
+    if(tabf[i].objet,objetrecherche){
+        S=S+tabf[i].montant;
+    }
+}
+
 
 //Procédure facture par étudiant par Davide
 
