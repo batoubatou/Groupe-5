@@ -48,13 +48,13 @@ void remplir Factures (struct Facture Tab[2],int n) {
 
 //Procédure affiche tab par Brelle
 
-void Afficher Factures(struct Factures tab[i]){
+void Afficher Factures(struct Factures tab[N]){
 	int numero;
 	char objet[5];
 	main(){
 		numero=0;
 		printf("veillez saisir l'objet");
-		scanf("%s",&M);
+		scanf("%s",&objet);
 		for(i=0;i<N;i++){
 			if(tabP[i].objet=ob){
 				printf("%f %d  %d %s ",&tabP[i].id etudiant &tabP[i].montant &tabP[i]. scolarite &tabP[i].mois)
@@ -65,7 +65,7 @@ void Afficher Factures(struct Factures tab[i]){
 
 
 //Fonction somme tab par Alix
-float sommeTab(struct Facture tab[], int n){
+float sommeTab(struct Facture tab[N], int n){
     float S=0;
     for ( int i=0; i<n; i++){
         S += tab[i].montant;
