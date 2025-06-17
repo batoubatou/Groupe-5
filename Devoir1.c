@@ -48,8 +48,8 @@ void afficher (Facture)
 //Fonction somme tab par Alix
 float sommeTab(struct Facture tab[], int n){
     float S=0;
-    for (i=0; i<n; i++){
-        S=S+tab[i].montant;
+    for ( int i=0; i<n; i++){
+        S += tab[i].montant;
     }
       return S;
 }
