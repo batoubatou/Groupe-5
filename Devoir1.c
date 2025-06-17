@@ -68,7 +68,6 @@ for(i=0; i<n; i++){
 }
 
 //Fonction somme par objet par David
-<<<<<<< HEAD
 S=0;
 for(i=0; i<n; i++){
     if(tabf[i].objet,objetrecherche){
@@ -76,9 +75,6 @@ for(i=0; i<n; i++){
     }
 }
 
-=======
-oui
->>>>>>> 7cd9008edf6cf46dcadc5d10ada0099eb6233ad2
 
 //Procédure facture par étudiant par David
 
