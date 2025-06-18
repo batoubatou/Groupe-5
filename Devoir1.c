@@ -8,11 +8,11 @@ typedef struct{
     int idRecherche;
 float montant,inscription,scolarite;
 char objet[5];
-}
-fin structure;
+};
+
 
 //Procédure remplir tab factures par Brelle 
-void remplir Factures (struct Facture Tab[2],int n) {
+void remplirtabF (struct facture tabF[]) {
 
  for (int i = 0; i < n; i++){
     
