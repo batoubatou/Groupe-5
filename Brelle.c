@@ -20,17 +20,17 @@ void remplirtabF (struct facture tabF[]) {
     
  } 
  
-    printf ("\n veuillez saisir le numero de l etudiant \n");
+    printf ("\n veuillez saisir le numero de l'etudiant \n");
     scanf("%d",&Facture Tab [i].numero);
-     printf ("\n veuillez saisir l id de l etudiant \n");
+     printf ("\n veuillez saisir l'id de l'etudiant \n");
      scanf("%d",&Facture Tab [i].id);
-     printf ("\n veuillez saisir le montant de l etudiant \n");
+     printf ("\n veuillez saisir le montant de l'etudiant \n");
      scanf("%f",&Facture Tab [i].montant);
-     printf ("\n veuillez saisir l inscription de l etudiant \n");
+     printf ("\n veuillez saisir l'inscription de l'etudiant \n");
      scanf("%f",&Facture Tab [i].incription);
-     printf ("\n veuillez saisir la scolarite de l etudiant \n");
+     printf ("\n veuillez saisir la scolarite de l'etudiant \n");
      scanf("%f",&Facture Tab [i].scolarite);
-     printf ("\n veuillez saisir l objet \n");
+     printf ("\n veuillez saisir l'objet \n");
      scanf("%s",&Facture Tab [i].objet);
 
 
